@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "RAGScraper"
-version = "11.4.2023"
+version = "11.5.2023"
 description = "RAGScraper is a Python library designed for efficient and intelligent scraping of web documentation and content. Tailored for Retrieval-Augmented Generation systems, RAGScraper extracts and preprocesses text into structured, machine-learning-ready formats. It emphasizes precision, context preservation, and ease of integration with RAG models, making it an ideal tool for developers looking to enhance AI-driven applications with rich, web-sourced knowledge."
 authors = ["kdcokenny <kenny@elapse.ai>"]
 license = "MIT"

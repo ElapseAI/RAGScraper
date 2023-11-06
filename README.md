@@ -29,7 +29,12 @@ url = "https://example.com"
 html_content = Scraper.fetch_html(url)
 
 # Convert to Markdown
-markdown_content = Converter.html_to_markdown(html_content)
+markdown_content = Converter.html_to_markdown(
+    html=html_content, 
+    base_url=base_url,
+    parser_features='html.parser', 
+    ignore_links=True
+)
 print(markdown_content)
 ```
 
